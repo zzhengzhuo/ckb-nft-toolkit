@@ -1,5 +1,5 @@
 import CKB from '@nervosnetwork/ckb-sdk-core'
-import { serializeInput, blake2b, hexToBytes } from '@nervosnetwork/ckb-sdk-utils'
+import { serializeInput, blake2b, hexToBytes, scriptToAddress } from '@nervosnetwork/ckb-sdk-utils'
 import { secp256k1LockScript, secp256k1Dep, alwaysSuccessLock, alwaysSuccessCellDep } from '../account'
 import { getCells, collectInputs, getLiveCell } from '../collector'
 import { FEE, IssuerTypeScript, IssuerTypeDep } from '../constants/script'

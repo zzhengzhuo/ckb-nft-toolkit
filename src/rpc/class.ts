@@ -46,7 +46,7 @@ export const createClassCells = async (issuerTypeArgs: Hex, classCount = 1) => {
   let tokenClasses = []
   const tokenClass = TokenClass.fromProps({
     version: 0,
-    total: 1000,
+    total: 1000000000,
     issued: 0,
     configure: '0x00',
     name: utf8ToHex('First NFT'),
